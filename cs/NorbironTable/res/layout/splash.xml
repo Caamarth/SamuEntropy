@@ -21,4 +21,14 @@
         android:layout_centerHorizontal="true"
         android:scaleType="centerInside"
         android:layout_below="@+id/neuronanimation"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="24dp"
+        android:textColor="#F21010"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:text="Touch screen to start NeuronTable!" />    
 </RelativeLayout>
