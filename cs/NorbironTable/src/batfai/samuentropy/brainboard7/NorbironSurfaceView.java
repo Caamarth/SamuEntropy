@@ -154,7 +154,9 @@ public class NorbironSurfaceView extends android.view.SurfaceView implements Run
     private boolean DTap = false;
     
     private Nodes nodes;
-    private static java.util.List<NeuronBox> nodeBoxes = new java.util.ArrayList<NeuronBox>();
+    public static java.util.List<NeuronBox> nodeBoxes = new java.util.ArrayList<NeuronBox>();
+    
+    
 
     protected NeuronBox selNb = null;
 

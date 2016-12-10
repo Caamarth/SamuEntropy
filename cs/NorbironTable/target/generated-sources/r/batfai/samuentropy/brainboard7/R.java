@@ -34,7 +34,9 @@ public final class R {
         public static final int bchild_height=0x7f070002;
         public static final int bottom_height=0x7f070000;
         public static final int button_height=0x7f070001;
-        public static final int font_size=0x7f070003;
+        public static final int font_size=0x7f070005;
+        public static final int left_width=0x7f070003;
+        public static final int purge_width=0x7f070004;
     }
     public static final class drawable {
         public static final int buildproci=0x7f020000;
@@ -64,17 +66,19 @@ public final class R {
         public static final int bottom=0x7f0a0002;
         public static final int bottom_child=0x7f0a0003;
         public static final int buttonD=0x7f0a000a;
-        public static final int esamu=0x7f0a000d;
+        public static final int buttonPurge=0x7f0a000c;
+        public static final int esamu=0x7f0a000f;
         public static final int gretironproci=0x7f0a0006;
         public static final int gretironproci2=0x7f0a0009;
         public static final int matyironproci=0x7f0a0005;
         public static final int matyironproci2=0x7f0a0008;
         public static final int nandironproci=0x7f0a0004;
         public static final int nandironproci2=0x7f0a0007;
-        public static final int neuronanimation=0x7f0a000c;
-        public static final int nodelist=0x7f0a000b;
+        public static final int neuronanimation=0x7f0a000e;
+        public static final int nodelist=0x7f0a000d;
         public static final int norsurf=0x7f0a0001;
         public static final int rela=0x7f0a0000;
+        public static final int top=0x7f0a000b;
     }
     public static final class layout {
         public static final int main=0x7f030000;

@@ -63,6 +63,7 @@ public class NeuronGameActivity extends android.app.Activity {
     private NorbironSurfaceView nSView;
     private LinearLayout bottom;
     private LinearLayout bottom_child;
+    private LinearLayout top;
     private boolean up;
     private Animation animUp;
     private Animation animDown;
@@ -85,6 +86,7 @@ public class NeuronGameActivity extends android.app.Activity {
         bottom.setOnDragListener(new MyDragListener());
         bottom_child = (LinearLayout) findViewById(R.id.bottom_child);
         bottom_child.setVisibility(View.GONE);
+        top = (LinearLayout) findViewById(R.id.top);
         
         animUp = AnimationUtils.loadAnimation(this, R.anim.anim_up);
         animDown = AnimationUtils.loadAnimation(this, R.anim.anim_down);
@@ -114,8 +116,20 @@ public class NeuronGameActivity extends android.app.Activity {
                  }
              }
          });
+         
+    final Button button2 = (Button) findViewById(R.id.buttonPurge);
+        button2.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+               try{
+                   NorbironSurfaceView.nodeBoxes.clear();
+               }
+               catch(java.util.ConcurrentModificationException e) {}
+            }
+        });     
     
     }
+    
+
     
     private final class MyTouchListener implements OnTouchListener {
         public boolean onTouch(View view, MotionEvent motionEvent) {

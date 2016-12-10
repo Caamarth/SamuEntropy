@@ -86,6 +86,26 @@
      />
 </LinearLayout>
 
-
+<LinearLayout
+    android:id="@+id/top"
+    android:layout_width="@dimen/left_width"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom = "true"
+    android:layout_gravity = "center"
+    android:gravity = "left"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:id="@+id/buttonPurge"
+        android:layout_width="@dimen/purge_width"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/font_size"
+        android:text="!"
+        android:gravity = "center"
+        android:layout_gravity="center"
+        android:background="#FFFF9800"
+        android:textColor="#FFFFFFFF"
+        />
+</LinearLayout>
 
 </RelativeLayout>
